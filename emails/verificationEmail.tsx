@@ -25,7 +25,7 @@ export default function VerificationEmail({
             <Body style={main}>
                 <Container style={container}>
                     <Img
-                        src={`${process.env.DOMAIN_NAME || ""}/whisperweb-logo.png`}
+                        src={'https://raw.githubusercontent.com/rohitsinghh01/WhisperWeb/main/public/whisperweb-logo.png'}
                         width="250"
                         height="135"
                         alt="WhisperWeb"
